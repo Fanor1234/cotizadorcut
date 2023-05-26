@@ -11,9 +11,7 @@ openai.api_key = os.environ.get('OPENAI_API_KEY')
 
 
 app = Flask(__name__)
-### open ai api key and function to chatgpt promt 
-openai.api_key = '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'
-
+ 
 tabla = """
 los precios unitarios para los diferentes materiales y espesores son:
 para acero inox de 0.8 mm de espesor el precio unitario es 40.00 Bs/m,\
